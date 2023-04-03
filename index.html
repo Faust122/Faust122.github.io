@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>сайт web-студії "web-Deco"</title>
+    <script src="js/clock1.js"></script>
     <script type="text/javascript">
         function send()
         {
@@ -29,7 +30,9 @@
             return false;   
         }
         }
-        
+        window.onload = function() {
+            setInterval (clockPainting, 1000);
+        }
     </script>
     <style>
         .shadowtext {
@@ -151,10 +154,11 @@
     </tr>
     <tr>
         <td background="images/bg-3.jpg"colspan="2" valign="middle" height="90"></td>
-        <font size="4">Сайт розробив "Семенюк Максим"</font>
+        <img src="images/logo.png" height="140" width="140" align="left">
+<font color="Maroon"><h1 class="shadowtext">Сайт студії "Web-Deco"</h1></font>
+        
     </tr>
 </table>
-<img src="images/logo.png" height="140" width="140" align="left">
-<font color="Maroon"><h1 class="shadowtext">Сайт студії "Web-Deco"</h1></font>
+<font size="4">Сайт розробив "Семенюк Максим"</font>
 </body>
 </html>
